@@ -92,7 +92,7 @@ const PanelFooter: React.FC<Props> = ({
             })}
           </Flex>
         </SocialEntry>
-        <SettingsEntry>
+        {/* <SettingsEntry>
           <Dropdown
             position="top-right"
             target={
@@ -113,7 +113,7 @@ const PanelFooter: React.FC<Props> = ({
               </MenuButton>
             ))}
           </Dropdown>
-        </SettingsEntry>
+        </SettingsEntry> */}
       </Flex>
     </Container>
   );

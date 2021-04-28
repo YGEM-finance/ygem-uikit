@@ -28,10 +28,10 @@ const MenuEntry = styled.div<Props>`
   display: flex;
   align-items: center;
   height: ${MENU_ENTRY_HEIGHT}px;
-  padding: ${({ secondary }) => (secondary ? "0 32px" : "0 16px")};
+  padding: ${({ secondary }) => (secondary ? "0 55px" : "0 16px")};
   font-size: ${({ secondary }) => (secondary ? "14px" : "16px")};
   background-color: black;
-  color: white;
+  color: #b8b7ad;
   box-shadow: ${({ isActive, theme }) => (isActive ? `inset 5px 0px 0px #f7c336` : "none")};
   background-image: ${({ isActive, theme }) => (isActive ? `linear-gradient(270deg, #333b40 0%, #7f682d 74%)` : "none")};
 
